@@ -1,1 +1,2 @@
-# Kitchen Chaos Multiplayer
+# kitchenChaos
+An Unity and C# learning project
