@@ -31,11 +31,11 @@ public class KitchenGameMultiplayer : NetworkBehaviour {
         kitchenObject.SetKitchenObjectParent(kitchenObjectParent);
     }
 
-    private int GetKitchObjectSOListIndex(KitchenObjectSO kitchenObjectSO) { 
+    public int GetKitchObjectSOListIndex(KitchenObjectSO kitchenObjectSO) { 
         return kitchenObjectListSO.kitchenObjectSOList.IndexOf(kitchenObjectSO);
     }
 
-    private KitchenObjectSO GetKitchenObjectSOFromIndex(int kitchenObjectSOIndex) { 
+    public KitchenObjectSO GetKitchenObjectSOFromIndex(int kitchenObjectSOIndex) { 
         return kitchenObjectListSO.kitchenObjectSOList[kitchenObjectSOIndex];
     }
 
